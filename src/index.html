@@ -1,11 +1,29 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>todo</title>
-</head>
-<body>
-  <div id="content"></div>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>todo</title>
+  </head>
+  <body>
+    <div id="content">
+      <form novalidate>
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email" />
+        <label for="country">Country</label>
+        <input type="text" name="country" id="country" />
+        <label for="postal-code">Postal Code</label>
+        <input type="text" name="postal-code" id="postal-code" />
+        <label for="password">Password</label>
+        <input type="password" name="password" id="password" />
+        <label for="password-confirmation">Password Confirmation</label>
+        <input
+          type="password"
+          name="password-confirmation"
+          id="password-confirmation"
+        />
+        <button type="button">Submit</button>
+      </form>
+    </div>
+  </body>
 </html>

@@ -1,1 +1,7 @@
-import './css/style.css';
+import "./css/style.css";
+
+// Email
+// Country
+// Postal Code
+// Password
+// Password Confirmation
